@@ -3,8 +3,6 @@ left_links:
     link: /
   - name: Registration
     link: /registration/
-  - name: Speakers
-    link: /speakers/
   - name: Program
     link: /program/
   - name: Logistics
@@ -13,6 +11,8 @@ left_links:
     link: /organizers/
   #- name: Contact
   #  link: /contact/
+  #- name: Speakers
+  #  link: /speakers/
 
 #right_links:
 #  - name:

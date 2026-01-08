@@ -1,10 +1,21 @@
 ---
 title: Venue and logistics
 description: How to get to the conference.
-image: /images/background2/salute.jpg
+image: /images/background/DallE-home.png
 ---
 
 <style>
+
+
+
+.abstract-title {
+    font-size: 1.6em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 .learn-more {
     position: absolute;
@@ -42,7 +53,6 @@ image: /images/background2/salute.jpg
     }
 }
 
-
 .section-group {
     display: flex;
     align-items: flex-start;
@@ -74,6 +84,24 @@ image: /images/background2/salute.jpg
     flex-shrink: 0; 
 }
 
+.editable ul,
+.editable li {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* "Social events" responsive */
+@media screen and (max-width: 900px) {
+  .section-group {
+    flex-direction: column; 
+    gap: 24px;     
+  }
+  .section-group .section {
+    flex: 1 1 100%;
+    min-width: 100%;
+  }
+}
+
 </style>
 
 
@@ -81,18 +109,18 @@ image: /images/background2/salute.jpg
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 			<h1 class="editable" style="text-shadow: 0px 0px 8px black; text-align: center;">Venue and logistics</h1>
-			<p class="subtext editable" style="text-align: center;">How to get to the workshop</p>
+			<p class="subtext editable">How to get to the conference</p>
 		</div>
 	</div>
 
-	<div class="learn-more">
+
+		<div class="learn-more">
 		<a href="#venue"><span class="highlight">Venue </span><span class="arrow">&#x25BC;</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
 		<a href="#social"><span class="highlight">Social events </span><span class="arrow">&#x25BC;</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="#freetime"><span class="highlight">Free time in laguna </span><span class="arrow">&#x25BC;</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<!--<a href="#freetime"><span class="highlight">Free time in laguna </span><span class="arrow">&#x25BC;</span></a>&nbsp;&nbsp;&nbsp;&nbsp;-->
 	</div>
 
 </section>
-
 
 <div class="content">
 	<section class="info" id="venue">
@@ -100,135 +128,95 @@ image: /images/background2/salute.jpg
 
 				<div class="text">
 					<h2 class="editable">Venue</h2>
-					<p class="editable">The workshop will be held at</p>
-					<h3 class="editable">ECLT: European Center of Living Technology</h3>
+					<p class="editable">The course will be held at </p>
+					<h3 class="editable">Faculty of Psychology, University of Granada, Spain</h3>
 					<p class="editable">
-						<b><a href="https://www.unive.it/pag/10109/" target="_blank">Cà Bottacin</a></b> 
-						<small>- Dorsoduro 3911, Calle Crosera, 30123 Venezia - 
-							<a href="https://www.google.com/maps/place/Ca'+Bottacin/@45.4355803,12.3254485,18z/data=!3m1!4b1!4m5!3m4!1s0x477eb1cf655a48d5:0xa71fdde9466a35b2!8m2!3d45.4355784!4d12.3265428"
-								target="_blank">📍 Open in Google Maps
-							</a>
+						<b><a href="https://psicologiaexperimental.ugr.es/informacion/localizacion-contacto" target="_blank">Experimental Psychology Department, University of Granada</a></b> 
+						Campus Universitario de Cartuja
+						<small>- Calle Prof. Vicente Callao, 7, Beiro, 18011 Granada <br>
+							<a href="https://maps.app.goo.gl/oBjGBma5CQy85gss8" target="_blank">📍 Open in Google Maps</a>
 						</small>	
-					</p>
+					</p>				
 				</div>
-
-				<div class="image">
-					<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-						src="https://www.openstreetmap.org/export/embed.html?bbox=12.323345794575289%2C45.4342963857013%2C12.328098668949679%2C45.436381800095745&amp;layer=mapnik"
-						style="border: 1px solid black"></iframe>
-					<br />
-					<small>
-						<a href="https://www.openstreetmap.org/#map=19/45.43534/12.32572" target="_blank">View Larger Map</a>
-					</small>
-					<!--
-						<p>
-							<small>
-								<a href="https://www.google.com/maps/place/Ca'+Bottacin/@45.4355803,12.3254485,18z/data=!3m1!4b1!4m5!3m4!1s0x477eb1cf655a48d5:0xa71fdde9466a35b2!8m2!3d45.4355784!4d12.3265428"
-									target="_blank"> Open in Google Maps</a>
-							</small>
-						</p>
-					-->
-				</div>
-
 			</div>
+	</section>
+
+
+	<section class="info" id="social">
+
+		<div class="container flex">
+			<div class="text" style="width:100%; text-align:center;">
+			<h2 class="editable">Social events</h2>
+			</div>
+		</div>
+
+		<div class="container flex section-group">
+			<div class="section text">
+			<h3 class="editable">
+				MONDAY, SEPTEMBER 22, 2025 – 8:00 PM
+			</h3>
+
+			<p class="editable" style="margin-bottom:1em;">
+				<span style="font-size:1.2em; font-weight:bold; color:#ffa74d;">
+				Social Dinner
+				</span><br>
+				with invited speakers
+			</p>
+
+			<p class="editable" style="margin-bottom:1em;">
+				<i>Palazzo della Salute</i><br>
+				<small>Via San Francesco 90, 35121 Padova</small><br>
+				<small>(The dinner will take place at the conference venue)</small>
+			</p>
+			</div>
+
+			<div class="section text">
+			<h3 class="editable">
+				TUESDAY, SEPTEMBER 23, 2025 – 6:30 PM
+			</h3>
+			
+			<p class="editable" style="margin-bottom:1em;">
+				<span style="font-size:1.2em; font-weight:bold; color:#ffa74d;">
+				Public Lecture
+				</span><br>
+				<span class="speaker"><b>Prof. Luca Mazzucato</b></span> <small>| University of Oregon, USA</small>
+				<br>
+				<b><i>Dentro lo stato di flow</i></b> <br>
+			</p>
+
+			<p class="editable" style="margin-bottom:1em;">
+				<i>Palazzo della Salute</i><br>
+				<small>Via San Francesco 90, 35121 Padova</small><br>
+				<small>(The lecture will take place at the conference venue)</small>
+			</p>
+
+			<p class="editable" style="margin-bottom:1em;">
+				<b>This event is open to the public and will be held in Italian.</b>
+			</p>
+
+			<p style="text-align:center; margin-top:1em;">
+				<a href="{{ site.baseurl }}/files/lecture.png" target="_blank">
+				<img src="{{ site.baseurl }}/files/lecture.png" 
+					alt="Lecture flyer" 
+					style="max-width:100%; height:auto; border:1px solid #ccc;">
+				</a>
+			</p>
+			</div>
+		</div>
+
 	</section>
 
 	<section class="info">
-		
-		<div class="container">
-			<h2 class="editable">How to get to the workshop</h2>
-		</div>
-
 		<div class="container flex">
-
-			<div class="text">
-				<h3 class="editable">From the airport to the city</h3>
-				<p class="editable">The "Marco Polo" Venice airport is on the mainland, around 5km north of Venice. 
-					The city can be easily reached by water bus, shuttle bus or taxi. More information available on the
-					 <a href="http://www.veniceairport.it/en/transport/venice.html" target="_blank">airport website</a>.</p>
-				<p class="editable">Venice can also be reached easily from the "A. Canova" Treviso airport by bus. 
-					More information available on the 
-					<a href="http://www.trevisoairport.it/en/transport/venezia-santa-lucia-station.html" target="_blank">airport website</a>.</p>
-				<br>
-				<h3 class="editable">From Piazzale Roma or Santa Lucia train station</h3>
-				<p class="editable">Cà Bottacin is easily reachable on foot (a 15-minute walk) 
-					or by water bus (<i>line 1, direction Lido</i>, and <i>line 2, direction S. Zaccaria</i>, from the train station to <i>S. Tomà</i> stop). 
-					In front of the railway station, you will find 
-					water transports services and a tickets stand (<a href="https://actv.avmspa.it/en" target="_blank">ACTV official website</a> ).
-				</p>
-			</div>
-
-		</div>
-	</section>
-
-	<section class="info" id="social">
-		<div class="container flex section-group">
-
-			<div class="text">
-				<h2 class="editable">Accommodation</h2>
-				<p class="editable">There are many hotels nearby the location. Here are some suggestions:</p>
-				<ul>
-					<li><a href="https://www.tripadvisor.it/Hotel_Review-g187870-d575216-Reviews-Domus_Ciliota-Venice_Veneto.html" target="_blank">Domus Ciliota</a></li>
-					<li><a href="https://www.nh-hotels.com/hotel/nh-venezia-rio-novo" target="_blank">NH Rio Novo</a></li>
-					<li><a href="https://angelibb.com/" target="_blank">Residenza degli Angeli</a></li>
-					<li><a href="http://www.aitreponti.com/www.aitreponti.com/it/index.html" target="_blank">Ai Tre Ponti</a></li>
-					<li><a href="http://www.leterese.com/" target="_blank">B&B Le Terese</a></li>
-				</ul>
-				<p class="editable"><b>We strongly suggest to reserve your accommodation in advance.</b></p>
-			</div>
-		
 			<div class="text">
 				<h2 class="editable">Suggested restaurants</h2>
 				<ul>
-				<li><a href="https://www.osterianicestellato.com/" target="_blank">Osteria Anice Stellato</a></li>
-				<li><a href="https://casabonita.it/" target="_blank">Ristorante Casa Bonita</a></li>
-				<li><a href="https://www.tripadvisor.it/Restaurant_Review-g187870-d8360870-Reviews-Trattoria_da_a_Marisa-Venice_Veneto.html" target="_blank">Trattoria da'a Marisa</a></li>
-				<li><a href="http://www.tripadvisor.it/Restaurant_Review-g187870-d2446917-Reviews-Pizzeria_Sansovino-Venice_Veneto.html" target="_blank">Pizzeria Sansovino</a></li>
-				<li><a href="https://www.tripadvisor.it/Restaurant_Review-g187870-d32710492-Reviews-Ristorante_Pizzeria_Tre_Archi-Venice_Veneto.html" target="_blank">Ai tre archi pizzeria</a></li>
-				<li><a href="http://www.tripadvisor.it/Restaurant_Review-g187870-d6786843-Reviews-Fuori_Menu_Rio_Santissimo-Venice_Veneto.html" target="_blank">Fuori Menu Rio Santissimo</a></li>
-				<li><a href="http://www.tripadvisor.it/Restaurant_Review-g187870-d4874582-Reviews-Gelateria_Al_Teatro-Venice_Veneto.html" target="_blank">Gelateria Al Teatro</a> (ice cream)</li>
-				</ul>
-			</div>
+				<li><a href="https://dapino.it/" target="_blank">Da Pino - Padova</a></li>
+				<li><a href="https://www.gourmetteria.com/" target="_blank">Gourmetteria</a></li>
 
-			<div class="text">
-				<h2 class="editable">Social events</h2>
-				<ul>
-					<li> <b>Welcome reception</b>
-						<br> <small> > Monday June 30 – 6 p.m.
-						<br><a href="https://www.unive.it/pag/10109/" target="_blank">Cà Bottacin</a> </small> <br>
-					</li>
-					<li> <b>Social dinner</b>
-						<br> <small>  > Tuesday July 1 – 8 p.m. 
-						<br><a href="https://www.tripadvisor.it/Restaurant_Review-g187870-d23458684-Reviews-Hum_us-Venice_Veneto.html" target="_blank">Hum.us</a> 
-							<br>Calle Larga Santa Marta 2137, Venezia</small> <br>
-					</li>
+				<li><a href="https://www.tripadvisor.it/Restaurant_Review-g187867-d803964-Reviews-Fradei_Kempes-Padua_Province_of_Padua_Veneto.html" target="_blank">Osteria Fradei Kempes</a></li>
 				</ul>
 			</div>
-			
 		</div>
 	</section>
-
-	<section class="info" id="freetime">
-		<div class="container">
-			<div class="text">
-				<h2 class="editable">Free time in Venice laguna</h2>
-				<ul>
-					<li><a href="https://www.labiennale.org/en/architecture/2025" target="_blank">Biennale Architettura 2025 - Venice</a>, 19th international architecture exhibition</li>
-					<li><a href="https://www.guggenheim-venice.it/en/the-museum/" target="_blank">Peggy Guggenheim House Collection - Venice</a>, museum (Open daily 10 am - 6 pm. Closed on Tuesdays)</li>
-					<li><a href="https://www.teatrolafenice.it/en/" target="_blank">La Fenice Opera House - Venice</a></li>
-					<li>Murano Island and <a href="https://museovetro.visitmuve.it/en/home/" target="_blank">Glass Museum</a></li>
-					<li><a href="https://www.isoladiburano.it/en/" target="_blank">Burano Island</a></li>
-					<li><a href="https://www.veneziaunica.it/en/content/beaches?language=en" target="_blank">Venice Lido</a> - nearby beach</li>
-					</ul>
-				</div>
-			</div>
-		
-			<div class="image">
-				<img class="editable" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Aerial_view_Venice_07_2017_4995.jpg/1920px-Aerial_view_Venice_07_2017_4995.jpg" alt="Aerial view of Venice" />
-			</div>
-
-		</div>	
-	</section>
-
-
 </div>
