@@ -1,6 +1,6 @@
 - name: Home
   link: /
-- name: Registration
+- name: Applications
   link: /registration/
 - name: Program
   link: /program/
