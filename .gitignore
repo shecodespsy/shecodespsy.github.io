@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Editor folders
+.vscode/
+.idea/
+
+# Swap and temp files
+*.swp
+*~
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
