@@ -20,6 +20,30 @@ image: /images/background/DallE-home.png
 	object-fit: contain; 
 }
 
+/* Organizers grid: 2 columns on desktop, 1 on mobile */
+ul.staff {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  gap: 24px 60px; /* row gap, column gap */
+  justify-items: center; /* centers each card */
+}
+
+ul.staff > li {
+  width: 100%;
+  max-width: 420px; /* keeps items from getting too wide */
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  ul.staff {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
+
 </style>
 
 
