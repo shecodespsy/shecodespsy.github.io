@@ -1,7 +1,7 @@
 ---
 name: Chiara Avancini
 position: University of Granada
-image_path: /images/organizers/Tentori.jpg
+image_path: /images/organizers/Chiara.jpg
 order: 2
 website: 
 ---
