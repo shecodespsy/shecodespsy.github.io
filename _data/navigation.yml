@@ -6,9 +6,9 @@
   link: /program/
 - name: Venue
   link: /venue/
+- name: Accommodation
+  link: /accommodation/
+- name: Events
+  link: /events/
 - name: Organizers
   link: /organizers/
-#- name: Contact
-#  link: /contact/
-#- name: Speakers
-#  link: /speakers/

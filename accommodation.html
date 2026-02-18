@@ -1,0 +1,211 @@
+---
+title: Venue and logistics
+description: How to get to the conference.
+image: /images/background/corralasantiago.jpeg
+---
+
+<style>
+
+
+
+.abstract-title {
+    font-size: 1.6em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.learn-more {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+	flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.learn-more a {
+    font-size: 22px;
+    padding: 8px 16px;
+    min-width: 120px;
+    display: inline-block;
+    color: #fff;
+    /*text-decoration: none;*/
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    transition: color 0.3s ease;
+    white-space: nowrap;
+}
+
+.learn-more a:hover {
+    color: #ffa74d;
+}
+
+@media screen and (max-width: 768px) {
+    .learn-more {
+        display: none;
+    }
+}
+
+.section-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.section {
+    flex: 1;
+    min-width: 250px;
+}
+
+.section h2 {
+    min-height: 60px;
+}
+
+.editable ul,
+.editable li {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+@media screen and (max-width: 900px) {
+  .section-group {
+    flex-direction: column; 
+    gap: 24px;     
+  }
+  .section-group .section {
+    flex: 1 1 100%;
+    min-width: 100%;
+  }
+}
+
+.venue-section {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Column testo */
+.venue-section .text {
+  flex: 1 1 50%;
+  max-width: 50%;
+  text-align: center;
+}
+
+/* Column map */
+.venue-section .map {
+  flex: 1 1 50%;
+  max-width: 50%;
+}
+
+.venue-section .map .map-frame {
+  width: 100%;
+  height: 420px;   
+  border: 0;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.25);
+}
+
+@media screen and (max-width: 900px) {
+  .venue-section {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .venue-section .text,
+  .venue-section .map {
+    max-width: 100%;
+  }
+  .venue-section .map .map-frame {
+    height: 320px;
+  }
+}
+
+/* togli se vuoi il riquadro grigio in trasparenza nel titolo */
+.hero-text-container {
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+}
+
+</style>
+
+
+<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1 class="editable" style="text-shadow: 0px 0px 8px black; text-align: center;">Accommodation</h1>
+			<p class="subtext editable" style="text-align: center;">How to get to the accommodation</p>
+		</div>
+	</div>
+
+
+		<div class="learn-more">
+		<a href="#venue"><span class="highlight">Accommodation </span><span class="arrow">&#x25BC;</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		</div>
+
+</section>
+
+<div class="content">
+	<section class="info" id="venue">
+		<div class="container flex venue-section">
+
+			<div class="text">
+				<!--<h2 class="editable">Venue</h2>-->
+				<p class="editable" style="margin-bottom:1em;">
+					<span style="font-size:1.2em; font-weight:bold; color:#ffa74d;">
+					ACCOMMODATION
+					</span>
+				</p>
+
+				<p class="editable">The course will be held at </p>
+
+				<h3 class="editable">
+					<b>Corrala de Santiago
+					<br>
+				</h3>
+
+				<p>
+					<small>C/Santiago, 5, Centro, 18009, Granada. +34 958 24 15 23
+					</small>	
+				</p>	
+
+			</div>
+
+			<div class="map">
+				<iframe
+					class="map-frame"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3120.368533244575!2d-3.599901724211998!3d37.19295097213788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fcdb0eb73fc5%3A0x2a6bfae8786bd2d8!2sUniversity%20Campus%20of%20Cartuja!5e1!3m2!1sit!2sit!4v1767922731440!5m2!1sit!2sit"
+					style="border:0;"
+					allowfullscreen
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade">
+				</iframe>
+			</div>
+				
+		</div>
+
+		<div class="container flex">
+			<div class="text">
+				<p class="editable" style="margin-bottom:1em;">
+                    <span style="font-size:1.2em; font-weight:bold; color:#ffa74d;">
+                    	Corrala de Santiago</span>
+				</p>
+
+				<p class="editable" style="margin-bottom:1em;">
+                    La Corrala de Santiago is a historic building located in the Realejo district of Granada, one of the city’s most traditional neighborhoods. Dating from the 16th and 17th centuries, it is a representative example of popular communal housing organized around a central courtyard. After being restored, the building was transferred in 1991 to the University of Granada and now serves as a residence for visiting scholars and guests. Integrated into the cultural life of the Realejo, La Corrala de Santiago also functions as a venue for academic and cultural activities associated with the University.
+				</p>
+				
+
+			</div>
+		</div>
+	</section>
+
+</div>

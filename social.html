@@ -1,0 +1,195 @@
+---
+title: Venue and logistics
+description: How to get to the conference.
+image: /images/background/Alhambra.jpg
+---
+
+<style>
+
+
+
+.abstract-title {
+    font-size: 1.6em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.learn-more {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+	flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.learn-more a {
+    font-size: 22px;
+    padding: 8px 16px;
+    min-width: 120px;
+    display: inline-block;
+    color: #fff;
+    /*text-decoration: none;*/
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    transition: color 0.3s ease;
+    white-space: nowrap;
+}
+
+.learn-more a:hover {
+    color: #ffa74d;
+}
+
+@media screen and (max-width: 768px) {
+    .learn-more {
+        display: none;
+    }
+}
+
+.section-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.section {
+    flex: 1;
+    min-width: 250px;
+}
+
+.section h2 {
+    min-height: 60px;
+}
+
+.editable ul,
+.editable li {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+@media screen and (max-width: 900px) {
+  .section-group {
+    flex-direction: column; 
+    gap: 24px;     
+  }
+  .section-group .section {
+    flex: 1 1 100%;
+    min-width: 100%;
+  }
+}
+
+.venue-section {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Column testo */
+.venue-section .text {
+  flex: 1 1 50%;
+  max-width: 50%;
+  text-align: center;
+}
+
+/* Column map */
+.venue-section .map {
+  flex: 1 1 50%;
+  max-width: 50%;
+}
+
+.venue-section .map .map-frame {
+  width: 100%;
+  height: 420px;   
+  border: 0;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.25);
+}
+
+@media screen and (max-width: 900px) {
+  .venue-section {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .venue-section .text,
+  .venue-section .map {
+    max-width: 100%;
+  }
+  .venue-section .map .map-frame {
+    height: 320px;
+  }
+}
+
+/* togli se vuoi il riquadro grigio in trasparenza nel titolo */
+.hero-text-container {
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+}
+
+</style>
+
+
+<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1 class="editable" style="text-shadow: 0px 0px 8px black; text-align: center;">Social Events</h1>
+		</div>
+	</div>
+
+
+</section>
+
+<div class="content">
+	<section class="info" id="venue">
+
+		<div class="container flex">
+			<div class="text">
+
+				<p class="editable" style="margin-bottom:1em;">
+                    Granada is a fascinating city that blends centuries of history with a vibrant university atmosphere. We wish your experience here goes beyond programming, and get to know the unique culture and lifestyle of this city. That's why we've organized a series of social activities throughout the workshop to help you connect with each other and experience Granada:
+				</p>
+
+				<p class="editable" style="margin-bottom:1em;">
+                    <span style="font-size:1.2em; font-weight:bold; color:#ffa74d;">
+                    	SOCIAL EVENTS</span>
+				</p>
+				<p class="editable" style="margin-bottom:1em;">
+                    <span style="font-size:1.2em; font-weight:bold; color:#000000;">
+                    	Wendesday, May 13th - Welcome Event:</span>
+				</p>
+				<ul class="editable"> 
+				<li>Join us for an informal welcome gathering where you'll meet the other participants and the organizers, and get excited about the days ahead.</li>
+				</ul>
+
+				<p class="editable" style="margin-bottom:1em;">
+                    <span style="font-size:1.2em; font-weight:bold; color:#000000;">
+                    	Thursday, May 14th - Guided Tour of the Albaicín</span>
+				</p>
+				<ul class="editable">
+					<li>We'll explore the Albaicín, one of Granada's oldest and most enigmatic neighborhoods. This UNESCO World Heritage Site will take you on a journey back in time through its maze-like streets, leading you to stunning viewpoints overlooking the city.
+					</li>
+				</ul>
+
+				<p class="editable" style="margin-bottom:1em;">
+                    <span style="font-size:1.2em; font-weight:bold; color:#000000;">
+                    	Friday, May 15th - Tapas Night</span>
+				</p>
+				<ul class="editable">
+					<li>Experience Granada's legendary tapas culture. We'll enjoy an evening tasting some of the city's traditional dishes—a perfect opportunity to relax, socialize, and discover the flavors of Andalusian cuisine. Vegetarian, vegan and gluten-free options will be available.
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</section>
+
+</div>
