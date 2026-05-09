@@ -133,6 +133,14 @@ image: /images/background/cimcyc1.jpg
   padding: 0 !important;
 }
 
+#venue::before,
+#transports::before {
+  content: "";
+  display: block;
+  height: 80px;
+  margin-top: -80px;
+  visibility: hidden;
+}
 </style>
 
 
@@ -155,7 +163,7 @@ image: /images/background/cimcyc1.jpg
 </section>
 
 <div class="content">
-  
+
 	<section class="info" id="venue">
 		<div class="container flex venue-section">
 

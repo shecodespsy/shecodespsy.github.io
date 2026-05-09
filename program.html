@@ -103,6 +103,13 @@ image: /images/background/alhambra.png
   padding: 0 !important;
 }
 
+#materials::before {
+  content: "";
+  display: block;
+  height: 80px;
+  margin-top: -80px;
+  visibility: hidden;
+}
 </style>
 
 
@@ -139,10 +146,10 @@ image: /images/background/alhambra.png
     </div>
   </section>
 
-  <section class="info">
-    <div class="container">
-      <div class="text">
-        <h2 class="editable" id="materials">Information for participants</h2>
+	<section class="info" id=id="materials">
+		<div class="container flex">
+			<div class="text">
+        <h2 class="editable">Information for participants</h2>
 
         <p class="editable" id="guidelines" style="margin-bottom:1em;">
             <span style="font-size:1.2em; font-weight:bold; color:#ffa74d;">
@@ -154,15 +161,26 @@ image: /images/background/alhambra.png
         </p>
 
         <ul class="editable"> 
-            <li> access to Eduroam</li>
+            <li>access to <strong>Eduroam</strong>, using the credentials provided by your home university</li>
             <li> your own laptop or tablet </li>
             <li> a Google account</li>
         </ul>
         
+
+        <p class="editable" id="guidelines" style="margin-bottom:1em;">
+            <span style="font-size:1.2em; font-weight:bold; color:#ffa74d;">
+            MATERIALS
+        </span>
+        </p>
+        <p class="editable"> 
+          The course will be delivered using <strong>Google Colab</strong></li>. <br>
+          Course materials will be provided there, and participants will use Colab for hands-on exercises, coding practice, and scripting during the sessions. <br>
+          The access link will be shared at the beginning of the course.
+        </p>
+
         <p class="editable" id="guidelines" style="margin-bottom:1em;">
           <span style="font-size:1.2em; font-weight:bold; color:#ffa74d;">MEALS</span>
         </p>
-
 
         <p class="editable"> 
             Coffee breaks and lunch will be provided during the 3 days of the workshop (13, 14, 15 of May) at the CIMCYC. 
@@ -177,7 +195,7 @@ image: /images/background/alhambra.png
         </p>
 
         <p class="editable"> 
-          We have set up two Telegram spaces to communicate with.
+          We have set up two <span style="font-weight:bold;">Telegram</span> spaces to communicate with.
           <br>
           The link has been sent to the participants via email.
         </p>
@@ -188,10 +206,10 @@ image: /images/background/alhambra.png
         </span>
         </p>
         <p class="editable"> 
-          A certificate of attendance will be sent to the participants at the end of the course.
-          <!--<br>
-          Attendance is mandatory to get the certificate.-->
+          A certificate of attendance will be issued to participants at the end of the course.<br>
+          Attendance is <strong>mandatory</strong>, and the certificate will be granted only to participants who attend at least 80% of the course activities.
         </p>
+
       </div>
     </div>
   </section>
